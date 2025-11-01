@@ -1,0 +1,13 @@
+{
+  "name": "transparent-charity",
+  "version": "1.0.0",
+  "description": "A transparent charity smart contract on Celo",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network alfajores"
+  },
+  "dependencies": {
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0"
+  }
+}
